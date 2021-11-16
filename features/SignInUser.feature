@@ -11,7 +11,7 @@ Feature: Sign In an user
         * def signInJson = {email: "", password: ""}
         * signInJson.email = signUpJson.email
         * signInJson.password = signUpJson.password
-        * def fakeUserJson = { email: "wrong-student@test.com", password: "wrong-password" }
+        * def fakeUserJson = { email: "wrong-user@test.com", password: "wrong-password" }
 
     Scenario: Signs in an user and returns an error if it does not exist
         Given path 'auth/signup'
