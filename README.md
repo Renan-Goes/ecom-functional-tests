@@ -2,9 +2,11 @@
 Karate tests for the ecom API.
 
 ## How to run
-First run the ecom API, you can use the command "docker-compose up" in the root directory of the ecom project, which can be found here: https://github.com/Renan-Goes/ecom/tree/tests
+First run the ecom API, you can use the command "mvn spring-boot:run" in the root directory of the ecom project and its external API, the product-manager project, granted you have maven properly installed. The projects can be found here: 
+- https://github.com/Renan-Goes/ecom/tree/tests
+- https://github.com/Renan-Goes/products-manager
 
-Run the command: "java -jar karate.jar features" from the root of the project directory to run all tests, in order to run a specific test, you only have to add the full path, e.g:
+With both API's running, run the command: "java -jar karate.jar features" from the root of the project directory to run all tests, in order to run a specific test, you only have to add the full path, e.g:
 "java -jar karate.jar features/SignUpUser.feature".
 
 ## The tests run are:
