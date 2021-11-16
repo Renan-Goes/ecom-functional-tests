@@ -1,0 +1,5 @@
+{
+    "name": "A product to test in Karate",
+    "price": 1000.00,
+    "description": "A description for the product"
+}
